@@ -42,7 +42,7 @@ body{
     width: 100%;
     margin: 0;
     padding: auto;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/blogBG.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(blogBG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

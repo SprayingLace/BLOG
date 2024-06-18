@@ -1,0 +1,19 @@
+---
+layout: 'base.njk'
+---
+
+<section class="article_page">
+    <div class="title">
+    <h1>{{ title }}</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="article_banner">
+    <img src="{{ image }}" alt="{{ imageAlt }}">
+    <h2>{{ description }}</h2>
+    </div>
+    <div class="content">
+        
+        {{ content | safe }}
+
+    </div>
+</section>

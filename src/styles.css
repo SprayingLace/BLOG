@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+main{
+    min-height: calc(100vh - 68px - 203.81px);
+}
+.header{
+    top: 0;
+    margin: 0;
+    padding: 20px 30px;
+    background: #222222;
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    position: sticky;
+}
+.header .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.header .blogs a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 10%;
+    transition: 0.2s;
+}
+.header .blogs a:hover{
+    background-color: #fff;
+    color: #000000;
+}
+.hero h1{
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    padding: 10% 0 5px 0;
+}
+.hero p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero-content{
+    width: 80%;
+    margin: auto;
+}
+.hero{
+    color: #fff;
+    height: 35vh;
+    width: 100%;
+    margin: 0;
+    padding: auto;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/blogBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact{
+    background-color: #131313;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.contact:hover{
+    background-color: #fff;
+    color: black;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+.card .a{
+    background-color: #000000;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #000;
+}
+.featured h1,
+.recent h1{
+    margin: 50px 0;
+}
+.card{
+    text-align: left;
+    width: 75%;
+    padding: 15px;
+    background-color: #ffffff;
+    margin: 15px auto;
+    justify-content: space-between;
+    display: flex;
+}
+.card .content{
+    width: 60%;
+}
+.card img{
+    width: 30%;
+}
+.banner{
+    text-align: left;
+    margin: 30px 0;
+    padding: 30px 40px;
+    color: #fff;
+    background-color: #3b3b3b;
+    justify-content: space-between;
+    display: flex;
+}
+.banner .Logo{
+    width: 60%;
+}
+.banner .Logo h1{
+    width: 80%;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner .Logo span{
+    color: #f6f6f6;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+.newsletter{
+    margin: auto;
+    width: 40%;
+}
+.newsletter input{
+    width: 100%;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    outline: none;
+    padding: 8px;
+    font-size: 15px;
+}
+footer{
+    width: auto;
+    color: #fff;
+    padding: 30px;
+    background-color: #000000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+footer h1{
+    color: #fff;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0 30px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 20px;
+    transition: 0.2s;
+}
+footer a:hover{
+    background-color: #3b3b3b;
+    color: #fff;
+}
+footer .links{
+    padding: 20px 0 0 0;
+}
+.article_banner{
+    margin: 0 auto;
+    padding: 40px;
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    object-fit: contain;
+}
+.article_banner h2{
+    width: 50%;
+    margin: auto;
+    text-align: right;
+}
+.article_banner img{
+    width: 35%;
+}
+.article_page .content{
+    width: 80%;
+    font-size: 20px;
+    margin: 40px auto;
+}
+.contact_page{
+    display: flex;
+    width: 100%;
+}
+.left{
+    width: 50%;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/blogBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: left;
+    padding: 40px;
+    height: calc(100vh - 68px - 68px - 203.81px);
+}
+.left p{
+    color: #00c2f3;
+}
+.right{
+    width: 50%;
+    background-color: #ffffff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    height: calc(100vh - 68px - 68px - 203.81px);
+}
+.right input{
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+}
+.right textarea{
+    resize: none;
+    outline: none;
+}

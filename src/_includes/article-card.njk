@@ -1,0 +1,11 @@
+<li>
+    <article class="card">
+        <div class="content">
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p>By {{ post.data.author }} On {{ post.data.date | postDate }}</p>
+        <h4>{{ post.data.description }}</h4>
+        <a href="{{ post.url }}" class="a" >Continue Reading</a>
+        </div>
+        <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
+    </article>
+</li>

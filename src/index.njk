@@ -1,0 +1,46 @@
+---
+title: BLOG
+layout: 'base.njk'
+---
+
+
+
+    <section class="hero">
+        <div class="hero-content">
+        <h1>Welcome To My Blog!</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia itaque voluptates reiciendis quo vero! Quaerat laborum doloribus iusto, eos, sunt distinctio illum mollitia eaque natus ipsa repudiandae numquam cum eum.</p>
+        <a href="blogs" class="contact">All Articles</a>
+        </div>
+    </section>
+
+    <section class="featured">
+        <h1>Featured Articles<br><span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </span></h1>
+            <ul>
+            {%- for post in collections.featured | reverse -%}
+                {% include 'article-card.njk' %}
+            {%- endfor %}
+        </ul>
+    </section>
+
+    <section class="banner">
+        <div class="Logo">
+            <h1>Blog<br><span>Subscribe to our newsletter to recieve updates on our latest articles.</span></h1>
+        </div>
+        <div class="newsletter">
+            <input type="text" placeholder="john.smith@example.com">
+        </div>
+    </section>
+
+    <section class="recent">
+        <h1>Recent Articles<br><span>Lorem ipsum dolor sit amet consectetur.</span></h1>
+        <ul>
+            {%- for post in collections.popular | reverse -%}
+                {% include 'article-card.njk' %}
+            {%- endfor %}
+        </ul>
+            
+    </section>
+
+
